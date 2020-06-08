@@ -1,0 +1,123 @@
+{
+  "usuarios": [
+    {
+      "tieneOS": false,
+      "dni": "45678883",
+      "nombre": "Luis",
+      "apellido": "Style",
+      "direccion": "Princes Park 345"
+    },
+    {
+      "tieneOS": true,
+      "dni": "10236446",
+      "nombre": "Enrique",
+      "apellido": "Windsor",
+      "direccion": "Coronel Rosales 456",
+      "obraSocial": {
+        "nombre": "OSDE"
+      }
+    },
+    {
+      "cuil": "23-40893284-2",
+      "dni": "40893284",
+      "nombre": "homero",
+      "apellido": "simpson",
+      "direccion": "siempreviva 123",
+      "obraSocial": {
+        "nombre": "AMFFA"
+      }
+    },
+    {
+      "cuil": "27-37896347-7",
+      "dni": "123456784",
+      "nombre": "Lisa",
+      "apellido": "Mansilla",
+      "direccion": "Cornelia Street 1313",
+      "obraSocial": {
+        "nombre": "OSDE"
+      }
+    }
+  ],
+  "productos": [
+    {
+      "codNumerico": "1245BAY",
+      "precio": 180.5,
+      "descripcion": "bayaspirina 30 com",
+      "tipoProducto": {
+        "tipo": "medicamento"
+      },
+      "laboratorio": {
+        "nombre": "Bayer"
+      }
+    },
+    {
+      "codNumerico": "3465MOP",
+      "precio": 578.8,
+      "descripcion": "Dbi 500Mg 60 Com",
+      "tipoProducto": {
+        "tipo": "medicamento"
+      },
+      "laboratorio": {
+        "nombre": "Montpellier"
+      }
+    },
+    {
+      "codNumerico": "1456ABH",
+      "precio": 156.0,
+      "descripcion": "Her Secret 80 ml",
+      "tipoProducto": {
+        "tipo": "perfumeria"
+      }
+    }
+  ],
+  "sucursales": [
+    {
+      "sucursal": "Farmacia Pompeo",
+      "ptoVenta": 1,
+      "empleados": [
+        {
+          "cuil": "23-40893284-2",
+          "dni": "40893284",
+          "nombre": "homero",
+          "apellido": "simpson",
+          "direccion": "siempreviva 123",
+          "obraSocial": {
+            "nombre": "AMFFA"
+          }
+        },
+        {
+          "cuil": "27-37896347-7",
+          "dni": "123456784",
+          "nombre": "Lisa",
+          "apellido": "Mansilla",
+          "direccion": "Cornelia Street 1313",
+          "obraSocial": {
+            "nombre": "OSDE"
+          }
+        },
+        {
+          "cuil": "23-33895689-6",
+          "dni": "27895325",
+          "nombre": "Rosa",
+          "apellido": "Campo",
+          "direccion": "Salvador 3455",
+          "obraSocial": {
+            "nombre": "OSECAC"
+          }
+        }
+      ],
+      "encargado": {
+        "cuil": "23-40893284-2",
+        "dni": "40893284",
+        "nombre": "homero",
+        "apellido": "simpson",
+        "direccion": "siempreviva 123",
+        "obraSocial": {
+          "nombre": "AMFFA"
+        }
+      },
+      "direccion": "Yrigoyen 2627"
+    }
+  ],
+  "ventas": []
+}
