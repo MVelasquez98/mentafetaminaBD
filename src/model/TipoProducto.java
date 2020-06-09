@@ -1,7 +1,7 @@
 package model;
 
 public class TipoProducto {
-	public String tipo;
+	private String tipo;
 
 	public TipoProducto(String tipo) {
 		this.tipo = tipo;

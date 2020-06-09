@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SistemaFarmacia {
-	public List<Usuario> usuarios;
-	public List<Producto> productos;
-	public List<Sucursal> sucursales;
-	public List<Venta> ventas;
+	private List<Usuario> usuarios;
+	private List<Producto> productos;
+	private List<Sucursal> sucursales;
+	private List<Venta> ventas;
 
 	public SistemaFarmacia() {
 		this.usuarios = new ArrayList<Usuario>();

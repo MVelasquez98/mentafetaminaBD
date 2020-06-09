@@ -1,7 +1,7 @@
 package model;
 
 public class Empleado extends Usuario {
-	public String cuil;
+	private String cuil;
 
 	public Empleado(String dni, String nombre, String apellido, String direccion, ObraSocial obraSocial, String cuil) {
 		super(dni, nombre, apellido, direccion, obraSocial);

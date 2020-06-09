@@ -1,7 +1,7 @@
 package model;
 
 public class Cliente extends Usuario {
-	public boolean tieneOS;
+	private boolean tieneOS;
 
 	public Cliente(String dni, String nombre, String apellido, String direccion, ObraSocial obraSocial,
 			boolean tieneOS) {

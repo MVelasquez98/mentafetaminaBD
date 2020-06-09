@@ -1,7 +1,7 @@
 package model;
 
 public class FormaPago {
-	public String formaPago;
+	private String formaPago;
 
 	public FormaPago(String formaPago) {
 		this.formaPago = formaPago;

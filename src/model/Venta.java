@@ -1,44 +1,46 @@
 package model;
 
-import java.util.Date;
+import java.util.ArrayList;
+import java.time.LocalDate;
+import java.util.List;
 
 public class Venta {
-	public Date fecha;
-	public int nroTicket;
-	public FormaPago formaPago;
-	public float totalVenta;
-	public Usuario vendedor;
-	public Usuario cobrador;
-	public Usuario cliente;
-	public int ptoVenta;
-	public Sucursal sucursal;
+	private String fecha;
+	private String nroTicket;
+	private FormaPago formaPago;
+	private double totalVenta;
+	private Usuario vendedor;
+	private Usuario cobrador;
+	private Usuario cliente;
+	private Sucursal sucursal;
+	private List<ItemVenta> items;
 
-	public Venta(Date fecha, int nroTicket, FormaPago formaPago, float totalVenta, Usuario vendedor, Usuario cobrador,
-			Usuario cliente, int ptoVenta, Sucursal sucursal) {
+	public Venta(String fecha, String nroTicket, FormaPago formaPago, Usuario vendedor, Usuario cobrador,
+			Usuario cliente, Sucursal sucursal) {
 		this.fecha = fecha;
 		this.nroTicket = nroTicket;
 		this.formaPago = formaPago;
-		this.totalVenta = totalVenta;
+		this.totalVenta = 0;
 		this.vendedor = vendedor;
 		this.cobrador = cobrador;
 		this.cliente = cliente;
-		this.ptoVenta = ptoVenta;
 		this.sucursal = sucursal;
+		this.items = new ArrayList<ItemVenta>();
 	}
 
-	public Date getFecha() {
+	public String getFecha() {
 		return fecha;
 	}
 
-	public void setFecha(Date fecha) {
+	public void setFecha(String fecha) {
 		this.fecha = fecha;
 	}
 
-	public int getNroTicket() {
+	public String getNroTicket() {
 		return nroTicket;
 	}
 
-	public void setNroTicket(int nroTicket) {
+	public void setNroTicket(String nroTicket) {
 		this.nroTicket = nroTicket;
 	}
 
@@ -50,12 +52,17 @@ public class Venta {
 		this.formaPago = formaPago;
 	}
 
-	public float getTotalVenta() {
+	public double getTotalVenta() {
 		return totalVenta;
 	}
+	
 
-	public void setTotalVenta(float totalVenta) {
-		this.totalVenta = totalVenta;
+	public void calcularTotalVenta() {
+		double total = 0;
+		for(ItemVenta item : items) {
+			total += item.getPrecioUnitario()*item.getCantidad();
+		}
+		this.totalVenta = total;
 	}
 
 	public Usuario getVendedor() {
@@ -82,14 +89,6 @@ public class Venta {
 		this.cliente = cliente;
 	}
 
-	public int getPtoVenta() {
-		return ptoVenta;
-	}
-
-	public void setPtoVenta(int ptoVenta) {
-		this.ptoVenta = ptoVenta;
-	}
-
 	public Sucursal getSucursal() {
 		return sucursal;
 	}
@@ -97,11 +96,15 @@ public class Venta {
 	public void setSucursal(Sucursal sucursal) {
 		this.sucursal = sucursal;
 	}
+	
+	public boolean agregarItemVenta(ItemVenta item) {
+		return items.add(item);
+	}
 
 	public String toString() {
 		return "Venta [fecha=" + fecha + ", nroTicket=" + nroTicket + ", formaPago=" + formaPago + ", totalVenta="
-				+ totalVenta + ", vendedor=" + vendedor + ", cobrador=" + cobrador + ", cliente=" + cliente
-				+ ", ptoVenta=" + ptoVenta + ", sucursal=" + sucursal + "]";
+				+ totalVenta + ", vendedor=" + vendedor + ", cobrador=" + cobrador + ", cliente=" 
+				+ cliente + ", sucursal=" + sucursal + "]";
 	}
 
 }

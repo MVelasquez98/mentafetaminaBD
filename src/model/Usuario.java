@@ -1,11 +1,11 @@
 package model;
 
 public class Usuario {
-	public String dni;
-	public String nombre;
-	public String apellido;
-	public String direccion;
-	public ObraSocial obraSocial;
+	private String dni;
+	private String nombre;
+	private String apellido;
+	private String direccion;
+	private ObraSocial obraSocial;
 
 	public Usuario(String dni, String nombre, String apellido, String direccion, ObraSocial obraSocial) {
 		this.dni = dni;

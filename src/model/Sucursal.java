@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Sucursal {
-	public String sucursal;
-	public int ptoVenta;
-	public List<Empleado> empleados;
-	public Empleado encargado;
-	public String direccion;
+	private String sucursal;
+	private int ptoVenta;
+	private List<Empleado> empleados;
+	private Empleado encargado;
+	private String direccion;
 
 	public Sucursal(String sucursal, int ptoVenta, Empleado encargado, String direccion) {
 		this.sucursal = sucursal;

@@ -1,11 +1,11 @@
 package model;
 
 public class Producto {
-	public String codNumerico;
-	public double precio;
-	public String descripcion;
-	public TipoProducto tipoProducto;
-	public Laboratorio laboratorio;
+	private String codNumerico;
+	private double precio;
+	private String descripcion;
+	private TipoProducto tipoProducto;
+	private Laboratorio laboratorio;
 
 	public Producto(String codNumerico, double precio, String descripcion, TipoProducto tipoProducto,
 			Laboratorio laboratorio) {

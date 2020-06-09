@@ -1,14 +1,14 @@
 package model;
 
 public class ItemVenta {
-	public Producto producto;
-	public int cantidad;
-	public float precioUnitario;
+	private Producto producto;
+	private int cantidad;
+	private double precioUnitario;
 
-	public ItemVenta(Producto producto, int cantidad, float precioUnitario) {
+	public ItemVenta(Producto producto, int cantidad) {
 		this.producto = producto;
 		this.cantidad = cantidad;
-		this.precioUnitario = precioUnitario;
+		this.precioUnitario = producto.getPrecio();
 	}
 
 	public Producto getProducto() {
@@ -27,11 +27,11 @@ public class ItemVenta {
 		this.cantidad = cantidad;
 	}
 
-	public float getPrecioUnitario() {
+	public double getPrecioUnitario() {
 		return precioUnitario;
 	}
 
-	public void setPrecioUnitario(float precioUnitario) {
+	public void setPrecioUnitario(double precioUnitario) {
 		this.precioUnitario = precioUnitario;
 	}
 

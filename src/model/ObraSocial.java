@@ -1,7 +1,7 @@
 package model;
 
 public class ObraSocial {
-	public String nombre;
+	private String nombre;
 
 	public ObraSocial(String nombre) {
 		this.nombre = nombre;
