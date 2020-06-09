@@ -18,11 +18,98 @@
       }
     },
     {
+      "tieneOS": true,
+      "dni": "23456987",
+      "nombre": "Irene",
+      "apellido": "Modesto",
+      "direccion": "Lituania 4533",
+      "obraSocial": {
+        "nombre": "OSECAC"
+      }
+    },
+    {
+      "tieneOS": true,
+      "dni": "16578346",
+      "nombre": "Catalina",
+      "apellido": "Gales",
+      "direccion": "Spano 4567",
+      "obraSocial": {
+        "nombre": "OSECAC"
+      }
+    },
+    {
+      "tieneOS": true,
+      "dni": "14567832",
+      "nombre": "Felipe",
+      "apellido": "Primo",
+      "direccion": "Grecia 1929",
+      "obraSocial": {
+        "nombre": "IOMA"
+      }
+    },
+    {
+      "tieneOS": false,
+      "dni": "12567432",
+      "nombre": "Ariana",
+      "apellido": "Grande",
+      "direccion": "Boca Raton 3567"
+    },
+    {
+      "tieneOS": true,
+      "dni": "16727486",
+      "nombre": "Diana",
+      "apellido": "Spencer",
+      "direccion": "Gran Alma 1997",
+      "obraSocial": {
+        "nombre": "AMFFA"
+      }
+    },
+    {
+      "tieneOS": true,
+      "dni": "14678289",
+      "nombre": "Estefanía",
+      "apellido": "Rinaldi",
+      "direccion": "Manuel Castro 542",
+      "obraSocial": {
+        "nombre": "PAMI"
+      }
+    },
+    {
+      "tieneOS": true,
+      "dni": "15789654",
+      "nombre": "Thiago",
+      "apellido": "Bedoya",
+      "direccion": "Agüero 2345",
+      "obraSocial": {
+        "nombre": "IOMA"
+      }
+    },
+    {
+      "tieneOS": true,
+      "dni": "17653476",
+      "nombre": "Federico",
+      "apellido": "Fritzenwalden",
+      "direccion": "Gral Navarro 5677",
+      "obraSocial": {
+        "nombre": "OSDE"
+      }
+    },
+    {
+      "tieneOS": true,
+      "dni": "34568217",
+      "nombre": "Delfina",
+      "apellido": "Derrico",
+      "direccion": "yrigoyen 1567",
+      "obraSocial": {
+        "nombre": "OSECAC"
+      }
+    },
+    {
       "cuil": "23-40893284-2",
       "dni": "40893284",
-      "nombre": "homero",
-      "apellido": "simpson",
-      "direccion": "siempreviva 123",
+      "nombre": "Homero",
+      "apellido": "Simpson",
+      "direccion": "Siempreviva 123",
       "obraSocial": {
         "nombre": "AMFFA"
       }
@@ -35,6 +122,76 @@
       "direccion": "Cornelia Street 1313",
       "obraSocial": {
         "nombre": "OSDE"
+      }
+    },
+    {
+      "cuil": "23-33895689-6",
+      "dni": "27895325",
+      "nombre": "Rosa",
+      "apellido": "Campo",
+      "direccion": "Salvador 3455",
+      "obraSocial": {
+        "nombre": "OSECAC"
+      }
+    },
+    {
+      "cuil": "23-45678883-4",
+      "dni": "37896347",
+      "nombre": "Jessica",
+      "apellido": "Martínez",
+      "direccion": "Yrigoyen 1767",
+      "obraSocial": {
+        "nombre": "PAMI"
+      }
+    },
+    {
+      "cuil": "27-34568217-2",
+      "dni": "32795463",
+      "nombre": "Derek",
+      "apellido": "Shepherd",
+      "direccion": "Seattle 456",
+      "obraSocial": {
+        "nombre": "IOMA"
+      }
+    },
+    {
+      "cuil": "23-15789654-8",
+      "dni": "30897654",
+      "nombre": "Patricio",
+      "apellido": "Ponce",
+      "direccion": "Lituania 4563",
+      "obraSocial": {
+        "nombre": "OSDE"
+      }
+    },
+    {
+      "cuil": "23-30897654-9",
+      "dni": "32098753",
+      "nombre": "Lexie",
+      "apellido": "Sloan",
+      "direccion": "Airplane 822",
+      "obraSocial": {
+        "nombre": "AMFFA"
+      }
+    },
+    {
+      "cuil": "27-23456987-5",
+      "dni": "33895689",
+      "nombre": "Andrés",
+      "apellido": "Rodriguez",
+      "direccion": "Hernandarias 2456",
+      "obraSocial": {
+        "nombre": "PAMI"
+      }
+    },
+    {
+      "cuil": "23-15789654-8",
+      "dni": "20985432",
+      "nombre": "Daniel",
+      "apellido": "Mussimessi",
+      "direccion": "Baigorria 5321",
+      "obraSocial": {
+        "nombre": "AMFFA"
       }
     }
   ],
@@ -62,9 +219,91 @@
       }
     },
     {
+      "codNumerico": "3475MOP",
+      "precio": 2716.55,
+      "descripcion": "Dbi Ap 850mg 60 Com",
+      "tipoProducto": {
+        "tipo": "medicamento"
+      },
+      "laboratorio": {
+        "nombre": "Montpellier"
+      }
+    },
+    {
+      "codNumerico": "1234ROE",
+      "precio": 415.65,
+      "descripcion": "Amoxidal 500mg 20Com",
+      "tipoProducto": {
+        "tipo": "medicamento"
+      },
+      "laboratorio": {
+        "nombre": "Roemmers"
+      }
+    },
+    {
+      "codNumerico": "1222ROE",
+      "precio": 453.4,
+      "descripcion": "Amoxidal Duo Jarabe",
+      "tipoProducto": {
+        "tipo": "medicamento"
+      },
+      "laboratorio": {
+        "nombre": "Roemmers"
+      }
+    },
+    {
+      "codNumerico": "2727RAF",
+      "precio": 224.75,
+      "descripcion": "Aerotina 10 mg 10Com",
+      "tipoProducto": {
+        "tipo": "medicamento"
+      },
+      "laboratorio": {
+        "nombre": "Raffo"
+      }
+    },
+    {
+      "codNumerico": "4098RAF",
+      "precio": 468.99,
+      "descripcion": "Flexidol Relax 10 Com",
+      "tipoProducto": {
+        "tipo": "medicamento"
+      },
+      "laboratorio": {
+        "nombre": "Raffo"
+      }
+    },
+    {
+      "codNumerico": "1452BAY",
+      "precio": 256.75,
+      "descripcion": "Bayaspirina 50 com",
+      "tipoProducto": {
+        "tipo": "medicamento"
+      },
+      "laboratorio": {
+        "nombre": "Bayer"
+      }
+    },
+    {
       "codNumerico": "1456ABH",
       "precio": 156.0,
       "descripcion": "Her Secret 80 ml",
+      "tipoProducto": {
+        "tipo": "perfumeria"
+      }
+    },
+    {
+      "codNumerico": "1477AXX",
+      "precio": 134.1,
+      "descripcion": "Axe Marine x 150 ml",
+      "tipoProducto": {
+        "tipo": "perfumeria"
+      }
+    },
+    {
+      "codNumerico": "1356DOV",
+      "precio": 156.0,
+      "descripcion": "Dove Invisible Care 150 ml",
       "tipoProducto": {
         "tipo": "perfumeria"
       }
@@ -78,9 +317,9 @@
         {
           "cuil": "23-40893284-2",
           "dni": "40893284",
-          "nombre": "homero",
-          "apellido": "simpson",
-          "direccion": "siempreviva 123",
+          "nombre": "Homero",
+          "apellido": "Simpson",
+          "direccion": "Siempreviva 123",
           "obraSocial": {
             "nombre": "AMFFA"
           }
@@ -109,14 +348,108 @@
       "encargado": {
         "cuil": "23-40893284-2",
         "dni": "40893284",
-        "nombre": "homero",
-        "apellido": "simpson",
-        "direccion": "siempreviva 123",
+        "nombre": "Homero",
+        "apellido": "Simpson",
+        "direccion": "Siempreviva 123",
         "obraSocial": {
           "nombre": "AMFFA"
         }
       },
       "direccion": "Yrigoyen 2627"
+    },
+    {
+      "sucursal": "Farmacia Pasteur",
+      "ptoVenta": 2,
+      "empleados": [
+        {
+          "cuil": "23-45678883-4",
+          "dni": "37896347",
+          "nombre": "Jessica",
+          "apellido": "Martínez",
+          "direccion": "Yrigoyen 1767",
+          "obraSocial": {
+            "nombre": "PAMI"
+          }
+        },
+        {
+          "cuil": "27-34568217-2",
+          "dni": "32795463",
+          "nombre": "Derek",
+          "apellido": "Shepherd",
+          "direccion": "Seattle 456",
+          "obraSocial": {
+            "nombre": "IOMA"
+          }
+        },
+        {
+          "cuil": "23-15789654-8",
+          "dni": "30897654",
+          "nombre": "Patricio",
+          "apellido": "Ponce",
+          "direccion": "Lituania 4563",
+          "obraSocial": {
+            "nombre": "OSDE"
+          }
+        }
+      ],
+      "encargado": {
+        "cuil": "23-45678883-4",
+        "dni": "37896347",
+        "nombre": "Jessica",
+        "apellido": "Martínez",
+        "direccion": "Yrigoyen 1767",
+        "obraSocial": {
+          "nombre": "PAMI"
+        }
+      },
+      "direccion": "Condarco 675"
+    },
+    {
+      "sucursal": "Farmacia Prado",
+      "ptoVenta": 3,
+      "empleados": [
+        {
+          "cuil": "23-30897654-9",
+          "dni": "32098753",
+          "nombre": "Lexie",
+          "apellido": "Sloan",
+          "direccion": "Airplane 822",
+          "obraSocial": {
+            "nombre": "AMFFA"
+          }
+        },
+        {
+          "cuil": "27-23456987-5",
+          "dni": "33895689",
+          "nombre": "Andrés",
+          "apellido": "Rodriguez",
+          "direccion": "Hernandarias 2456",
+          "obraSocial": {
+            "nombre": "PAMI"
+          }
+        },
+        {
+          "cuil": "23-15789654-8",
+          "dni": "20985432",
+          "nombre": "Daniel",
+          "apellido": "Mussimessi",
+          "direccion": "Baigorria 5321",
+          "obraSocial": {
+            "nombre": "AMFFA"
+          }
+        }
+      ],
+      "encargado": {
+        "cuil": "23-30897654-9",
+        "dni": "32098753",
+        "nombre": "Lexie",
+        "apellido": "Sloan",
+        "direccion": "Airplane 822",
+        "obraSocial": {
+          "nombre": "AMFFA"
+        }
+      },
+      "direccion": "Laprida 2356"
     }
   ],
   "ventas": []

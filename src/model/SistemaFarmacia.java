@@ -49,7 +49,7 @@ public class SistemaFarmacia {
 	}
 
 	//ABMs
-	public boolean agregaCliente (Cliente c) {
+	public boolean agregarCliente (Cliente c) {
 		return usuarios.add(c);
 	}
 	public boolean agregarEmpleado(Empleado e) {
